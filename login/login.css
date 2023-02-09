@@ -1,92 +1,114 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
 
 body {
-    font-family: "Nunito Sans", sans-serif;
-        border: none;
-        padding: 10px 30px;
-        border-radius: 10px;
-        background-color: #0a9a73;
-        width: 500px;
-        color: #005b43;
-        float: center;
-        padding-left: 30%;
-        padding-right: 30%;
-        padding-top: 5%;
-    }
-    
-    
-    header {
-      align-items: center;
-    background-color: #e5efee;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    border-radius: 10px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label, input[type="submit"] {
-    width: 100%;
-  }
-  
-  input[type="password"], input[type="text"], textarea {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    padding: 10px;
-  }
-  
-  input[type="submit"] {
-    background-color: #005b43;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  #errorMessage {
-    color: rgb(207, 0, 0);
-    text-align: center;
-    background-color: rgb(255, 215, 221);
-  }
+	font-family: "Nunito Sans", sans-serif;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: #0a9a73;
+	width: 500px;
+	color: #005b43;
+	float: center;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 5%;
+}
+
+#createAccount {
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+
+header {
+	align-items: center;
+	background-color: #e5efee;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	border-radius: 10px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	background-color: #f9f9f9;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+#login-form {
+	border-bottom: 3px solid #005b43;
+  margin-bottom: 20px;
+}
+
+label,
+input[type="submit"] {
+	width: 100%;
+}
+
+input[type="password"],
+input[type="text"],
+textarea {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+
+input[type="submit"],
+button {
+	background-color: #005b43;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
+
+#errorMessage {
+	color: rgb(207, 0, 0);
+	text-align: center;
+	background-color: rgb(255, 215, 221);
+}
+
+#createMessage {
+  color: #0a9a73;
+  text-align: center;
+  background-color: rgb(165, 255, 183);
+}
