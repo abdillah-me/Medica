@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
+
 * {
    margin: 0;
    padding: 0;
@@ -16,6 +17,7 @@
    position: fixed;
    width: 100%;
 }
+
 #navbar .navbar {
    display: flex;
    align-items: center;
@@ -70,6 +72,7 @@
    font-weight: 700;
    font-size: 14px;
 }
+
 /* navbar end*/
 
 /* hero */
@@ -89,6 +92,7 @@
    width: 60%;
    text-align: end;
 }
+
 .heroLeft h1 {
    font-weight: 800;
    font-size: 50px;
@@ -107,6 +111,7 @@
    width: 30%;
    color: white;
 }
+
 /* hero end */
 
 /* why me */
@@ -161,6 +166,7 @@
    margin-top: 3%;
    cursor: pointer;
 }
+
 /* big sale end */
 
 /* Featured Products */
@@ -210,7 +216,24 @@
    padding: 5px 15px;
    border-radius: 5px;
    margin: 10px 0;
+   font-size: 15px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   background-color: #04AA6D;
+   box-shadow: 0 1px #999;
 }
+
+.cardProduct .titleProduct button:hover {
+   background-color: #3e8e41
+}
+
+.cardProduct .titleProduct button:active {
+   background-color: #3e8e41;
+   box-shadow: 0 1px #666;
+   transform: translateY(4px);
+}
+
 /* card procut end */
 
 /* Featured Products end */
@@ -242,4 +265,5 @@
    justify-content: space-between;
    gap: 30px;
 }
+
 /*  kategori produk end */
