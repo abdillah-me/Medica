@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+   margin: 0 5%;
+}
+
+/* navbar */
+#navbar {
+   background-color: white;
+   box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.04);
+   position: fixed;
+   width: 100%;
+}
+#navbar .navbar {
+   display: flex;
+   align-items: center;
+   padding: 5px 0;
+}
+
+.navbar .logoMedica {
+   width: 15%;
+}
+
+.logoMedica img {
+   width: 100%;
+}
+
+.navbar .navigation {
+   width: 80%;
+}
+
+.navigation ul {
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.navigation ul li {
+   font-weight: 600;
+   margin: 0 2%;
+   cursor: pointer;
+}
+
+.navbar .cart {
+   width: 5%;
+   position: relative;
+   text-align: end;
+}
+
+.cart img {
+   width: 40%;
+   margin-right: 5px;
+}
+
+.cart span {
+   position: absolute;
+   background-color: white;
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   text-align: center;
+   right: 0px;
+   bottom: 5px;
+   color: #005b43;
+   font-weight: 700;
+   font-size: 14px;
+}
+/* navbar end*/
+
+/* hero */
+#hero .hero {
+   display: flex;
+   align-items: center;
+   height: 90vh;
+}
+
+.hero .heroLeft {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+}
+
+.hero .heroright {
+   width: 60%;
+   text-align: end;
+}
+.heroLeft h1 {
+   font-weight: 800;
+   font-size: 50px;
+}
+
+.heroLeft p {
+   font-weight: 600;
+   margin: 10px 0;
+}
+
+.heroLeft button {
+   border: none;
+   padding: 10px 30px;
+   border-radius: 10px;
+   background-color: #0a9a73;
+   width: 30%;
+   color: white;
+}
+/* hero end */
+
+/* why me */
+#whyMe {
+   background-color: #e5efee;
+}
+
+#whyMe .whyMe {
+   display: flex;
+   padding: 5% 0;
+   gap: 10%;
+   align-items: center;
+}
+
+.whyMeLeft {
+   width: 50%;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.whyMeLeft img {
+   width: 60%;
+}
+
+.whyMeRight {
+   width: 50%;
+}
+
+.whyMeRight h1 {
+   font-size: 35px;
+}
+
+.whyMeRight p {
+   margin: 10px 0;
+}
+
+.whyMeRight ul {
+   margin-left: 20px;
+}
+
+/* why me end */
+
+/* big sale */
+#bigSale .bigSale {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 5%;
+}
+
+.bigSale img {
+   width: 22%;
+   margin-top: 3%;
+   cursor: pointer;
+}
+/* big sale end */
+
+/* Featured Products */
+#featured h1 {
+   text-align: center;
+   margin-bottom: 5%;
+   font-size: 30px;
+}
+
+#featured .card {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+#featured .card .topContainer {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+/* card procut */
+.cardProduct {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   border: 1px solid #eaeaea;
+   box-shadow: 0px 14px 50px rgba(0, 0, 0, 0.04);
+   border-radius: 10px;
+   padding: 5px;
+}
+
+.cardProduct .imgProduct img {
+   width: 100%;
+}
+
+.cardProduct .titleProduct h1#title {
+   font-size: 18px;
+   margin-top: 10px;
+}
+
+.cardProduct .titleProduct button {
+   background-color: #0a9a73;
+   color: white;
+   border: none;
+   padding: 5px 15px;
+   border-radius: 5px;
+   margin: 10px 0;
+}
+/* card procut end */
+
+/* Featured Products end */
+
+/*  kategori produk */
+#kategori {
+   margin: 5% 0;
+}
+
+#kategori .menu {
+   cursor: pointer;
+}
+
+#kategori .cardKategori {
+   background: #ffffff;
+   border: 0.916197px solid #f3f3f3;
+   box-shadow: 0px 0px 13.743px rgba(0, 0, 0, 0.05);
+   border-radius: 18.3239px;
+   display: flex;
+   padding: 20px 40px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#kategori .containerPoduct {
+   margin-top: 5%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 30px;
+}
+/*  kategori produk end */
