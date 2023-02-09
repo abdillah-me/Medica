@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="style.css" />
+      <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
       <title>Medica</title>
    </head>
    <body>
@@ -21,7 +22,7 @@
                      <li>Home</li>
                      <li>Shop</li>
                      <li>About Us</li>
-                     <li>Login</li>
+                     <li id="signOut">Sign Out</li>
                   </ul>
                </div>
                <div class="cart">
@@ -168,25 +169,25 @@
                </div>
                <div class="menu">
                   <img src="assets/obatTablet.svg" alt="" />
-                  <p>Tablet</p>
+                  <p>Obat Tablet</p>
                </div>
                <div class="menu">
                   <img src="assets/obatKapul.svg" alt="" />
-                  <p>Tablet</p>
+                  <p>Obat Kapsul</p>
                </div>
                <div class="menu">
                   <img src="assets/obatOles.svg" alt="" />
-                  <p>Tablet</p>
+                  <p>Obat Oles</p>
                </div>
                <div class="menu">
                   <img src="assets/obatTetes.svg" alt="" />
-                  <p>Tablet</p>
+                  <p>Obat Tetes</p>
                </div>
             </div>
 
             <!-- card produk -->
-            <div class="containerPoduct">
-               <div class="cardProduct">
+            <div class="containerPoduct" id="containerPoduct">
+               <!-- <div class="cardProduct">
                   <div class="imgProduct">
                      <img src="assets/productDummy.png" alt="" />
                   </div>
@@ -275,10 +276,11 @@
                      <h1 id="title">Antiseptic Spray</h1>
                      <button class="price">Rp. 15.000</button>
                   </div>
-               </div>
+               </div> -->
             </div>
          </div>
       </section>
       <!-- kategori produk end -->
+      <script type="module" src="app.js"></script>
    </body>
 </html>

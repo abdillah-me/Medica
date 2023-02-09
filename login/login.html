@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  </head>
+  <body>
+    <header>
+  <main id="main-holder">
+    <img style="width: 200px; padding: 10% 25% 5%; 
+    " src="../assets/logo.png" alt="test">
+    <h1 id="login-header">Member Login</h1>
+    <br>
+    <form id="login-form">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required> <br>
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required> <br>
+        <div id="errorMessage"></div> <br>
+        <input type="submit" value="Login" id="login-form-submit"> <br>
+        <p>Not a member? Create new account</p>
+      </form>
+      <div id="myForm">
+      <h1 id="login-header">Create Account</h1>
+    <br>
+      <form class="form-container" id="add-user-form">
+        <input type="text" id="username" name="username" required placeholder="Username"> <br>
+        <input type="password" id="password" name="password" required placeholder="Password"> <br>
+        <div id="createMessage"></div> <br>
+        <button type="submit" id="add-user-form-submit">Add User</button> <br>
+      </form>
+    </div>
+    </main>
+    <script type="text/javascript" src="login.js"></script>
+  </header>
+  </body>
+</html>
