@@ -8,6 +8,13 @@
       <title>Medica</title>
    </head>
    <body>
+      <!-- sidebar -->
+      <div class="sidebar-navigation">
+         <div class="sidebar-header">Shopping Cart 💊</div>
+         <ul class="sidebar-list"></ul>
+      </div>
+      <div class="overlay"></div>
+      <!-- sidebar end -->
       <!-- header -->
       <header>
          <!-- navbar -->
@@ -19,12 +26,12 @@
                <div class="navigation">
                   <ul>
                      <li>Home</li>
-                     <li>Shop</li>
+                     <li>Shopping</li>
                      <li>About Us</li>
                      <li>Login</li>
                   </ul>
                </div>
-               <div class="cart">
+               <div class="cart toggle-navigation">
                   <img src="assets/cart.png" alt="" />
                   <span class="countCart">1</span>
                </div>
@@ -162,123 +169,40 @@
          <div class="container kategori">
             <!-- menu kategori -->
             <div class="cardKategori">
-               <div class="menu">
+               <div class="menu" data-category="All">
+                  <img src="assets/AllProduct.svg" alt="" />
+                  <p>All Product</p>
+               </div>
+               <div class="menu" data-category="Obat Cair">
                   <img src="assets/obatCair.svg" alt="" />
                   <p>Obat Cair</p>
                </div>
-               <div class="menu">
+               <div class="menu" data-category="Tablet">
                   <img src="assets/obatTablet.svg" alt="" />
                   <p>Tablet</p>
                </div>
-               <div class="menu">
+               <div class="menu" data-category="Kapsul">
                   <img src="assets/obatKapul.svg" alt="" />
-                  <p>Tablet</p>
+                  <p>Kapsul</p>
                </div>
-               <div class="menu">
+               <div class="menu" data-category="Obat OLes">
                   <img src="assets/obatOles.svg" alt="" />
-                  <p>Tablet</p>
+                  <p>Obat Oles</p>
                </div>
-               <div class="menu">
+               <div class="menu" data-category="Obat Tetes">
                   <img src="assets/obatTetes.svg" alt="" />
-                  <p>Tablet</p>
+                  <p>Obat Tetes</p>
                </div>
             </div>
 
             <!-- card produk -->
             <div class="containerPoduct">
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
-               <div class="cardProduct">
-                  <div class="imgProduct">
-                     <img src="assets/productDummy.png" alt="" />
-                  </div>
-                  <div class="titleProduct">
-                     <h1 id="title">Antiseptic Spray</h1>
-                     <button class="price">Rp. 15.000</button>
-                  </div>
-               </div>
+               <!-- data product -->
             </div>
          </div>
       </section>
+
       <!-- kategori produk end -->
+      <script src="app.js"></script>
    </body>
 </html>
